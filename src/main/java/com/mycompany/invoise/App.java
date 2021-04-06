@@ -23,12 +23,12 @@ public class App
 
         if (configuration==1){
             InvoiceController invoiceController = new InvoiceController();
-            invoiceController.createInvoiceUsingConsole();
+            invoiceController.createInvoice();
         }
 
         else if(configuration==2){
             InvoiceControllerMichel invoiceController = new InvoiceControllerMichel();
-            invoiceController.createInvoiceUsingWebForm();
+            invoiceController.createInvoice();
         }
     }
 }

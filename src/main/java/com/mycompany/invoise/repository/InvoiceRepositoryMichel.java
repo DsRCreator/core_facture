@@ -6,7 +6,7 @@ import java.sql.PreparedStatement;
 import java.util.ArrayList;
 import java.util.List;
 
-public class InvoiceRepositoryMichel {
+public class InvoiceRepositoryMichel implements InvoiceRepositoryInterface{
 
 
     public void create(Invoice invoice){
